@@ -100,6 +100,7 @@ class MainActivity : FragmentActivity() {
             }
     }
 
+
     override fun onDestroy() {
         super.onDestroy()
         ZegoUIKitPrebuiltCallService.unInit()
