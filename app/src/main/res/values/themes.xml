@@ -1,0 +1,28 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+<!--    <style name="Theme.Vcalls" parent="android:Theme.Material.Light.NoActionBar" />-->
+<!--</resources>-->
+
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Default app theme for Compose (Material3, your current one) -->
+    <style name="Theme.Vcalls" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+
+    <!-- Extra theme just for Zego CallInviteActivity -->
+    <style name="Theme.Vcalls.MaterialComponents" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- You can override colors if needed -->
+        <item name="colorPrimary">#6200EE</item>       <!-- Purple 500 -->
+        <item name="colorPrimaryDark">#3700B3</item>   <!-- Dark Purple -->
+        <item name="colorAccent">#03DAC5</item>        <!-- Teal -->
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#6200EE</item>
+        <item name="android:navigationBarColor">#6200EE</item>
+    </style>
+
+</resources>
